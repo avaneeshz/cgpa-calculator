@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.masterandroid.cgpacalculator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Temp" />
+        <activity android:name=".Electrical3" />
+        <activity android:name=".Econ3" />
+        <activity android:name=".Ecom3" />
+        <activity android:name=".Etc3" />
+        <activity android:name=".Eee3" />
+        <activity android:name=".As3" />
+        <activity android:name=".Mt3" />
+        <activity android:name=".Mech3" />
+        <activity android:name=".Csce3" />
+        <activity android:name=".Csse3" />
+        <activity android:name=".It3" />
+        <activity android:name=".Cse3" />
+        <activity android:name=".Civil3" />
+        <activity android:name=".Secondb" />
+        <activity android:name=".Seconda" />
+        <activity android:name=".First" />
+        <activity android:name=".As7" />
+        <activity android:name=".Electrical7" />
+        <activity android:name=".Econ7" />
+        <activity android:name=".Ecom7" />
+        <activity android:name=".Ei7" />
+        <activity android:name=".Eee7" />
+        <activity android:name=".Etc7" />
+        <activity android:name=".Mech7" />
+        <activity android:name=".It7" />
+        <activity android:name=".Cse7" />
+        <activity android:name=".Civil6" />
+        <activity android:name=".Electrical6" />
+        <activity android:name=".Ei6" />
+        <activity android:name=".Econ6" />
+        <activity android:name=".Ecom6" />
+        <activity android:name=".Etc6" />
+        <activity android:name=".Eee6" />
+        <activity android:name=".As6" />
+        <activity android:name=".Mt6" />
+        <activity android:name=".Mech6" />
+        <activity android:name=".Csce6" />
+        <activity android:name=".Csse6" />
+        <activity android:name=".It6" />
+        <activity android:name=".Cse6" />
+        <activity android:name=".Econ5" />
+        <activity android:name=".Ecom5" />
+        <activity android:name=".Ei5" />
+        <activity android:name=".Etc5" />
+        <activity android:name=".Eee5" />
+        <activity android:name=".Civil5" />
+        <activity android:name=".Electrical5" />
+        <activity android:name=".As5" />
+        <activity android:name=".Am5" />
+        <activity android:name=".Mt5" />
+        <activity android:name=".Mech5" />
+        <activity android:name=".Csce5" />
+        <activity android:name=".Csse5" />
+        <activity android:name=".It5" />
+        <activity android:name=".Cse5" />
+        <activity android:name=".Econ4" />
+        <activity android:name=".Ei4" />
+        <activity android:name=".Ecom4" />
+        <activity android:name=".Eee4" />
+        <activity android:name=".Etc4" />
+        <activity android:name=".Electrical4" />
+        <activity android:name=".Civil4" />
+        <activity android:name=".As4" />
+        <activity android:name=".Am4" />
+        <activity android:name=".Mech4" />
+        <activity android:name=".Cse4" />
+        <activity android:name=".Csce4" />
+        <activity android:name=".Csse4" />
+        <activity android:name=".IT4" />
+        <activity android:name=".It5th" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
