@@ -437,4 +437,3 @@ public class Cse4 extends AppCompatActivity {
 }
 
 //                android:background="@android:drawable/button_onoff_indicator_on"
-//android:background="#1769aa"
