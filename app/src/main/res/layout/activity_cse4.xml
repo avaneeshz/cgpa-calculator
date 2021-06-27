@@ -29,7 +29,7 @@
 
                 android:editable="false"
                 android:gravity="center"
-                android:hint="Subjects"
+                android:text="Subjects"
                 android:textStyle="italic"
                 android:textSize="20sp" />
 
@@ -43,6 +43,7 @@ android:background="@drawable/rounded"
                 android:editable="false"
                 android:gravity="center"
                 android:hint="Internal"
+                android:text="Internal"
                 android:textStyle="italic"
                 android:textSize="20sp"
                 />
@@ -56,6 +57,7 @@ android:background="@drawable/rounded"
                 android:editable="false"
                 android:gravity="center"
                 android:hint="End-Sem"
+                android:text="End-Sem"
                 android:textStyle="italic"
                 android:textSize="20sp" />
 
@@ -68,6 +70,7 @@ android:background="@drawable/rounded"
                 android:editable="false"
                 android:gravity="center"
                 android:hint="Grade"
+                android:text="Grade"
                 android:textStyle="italic"
                 android:textSize="20sp" />
 
@@ -641,8 +644,10 @@ android:background="@drawable/rounded"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+
                 android:layout_marginRight="10dp"
-                android:background="#1769aa"
+                android:background="@drawable/btn_shape"
+                android:backgroundTint="#1769aa"
                 android:text="Reset"
                 android:textAllCaps="false" />
 
@@ -653,9 +658,10 @@ android:background="@drawable/rounded"
                 android:layout_height="match_parent"
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
-                android:background="#1769aa"
+                android:background="@drawable/btn_shape"
+                android:backgroundTint="#1769aa"
                 android:gravity="center"
-                android:text="calculate"
+                android:text="Calculate"
                 android:textAllCaps="false" />
 
             <TextView
@@ -665,7 +671,8 @@ android:background="@drawable/rounded"
                 android:layout_weight="2"
                 android:gravity="center"
                 android:hint="SGPA:-__.__"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                app:fontFamily="sans-serif-condensed" />
 
 
 
