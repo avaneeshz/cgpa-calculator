@@ -25,10 +25,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
-                android:background="@android:drawable/button_onoff_indicator_on"
+                android:background="@drawable/rounded"
                 android:editable="false"
                 android:gravity="center"
-                android:hint="Subjects"
+                android:text="Subjects"
                 android:textStyle="italic"
                 android:textSize="20sp" />
 
@@ -38,10 +38,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
-                android:background="@android:drawable/button_onoff_indicator_on"
+                android:background="@drawable/rounded"
                 android:editable="false"
                 android:gravity="center"
-                android:hint="Internal"
+                android:text="Internal"
                 android:textStyle="italic"
                 android:textSize="20sp"
                 />
@@ -51,10 +51,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
-                android:background="@android:drawable/button_onoff_indicator_on"
+                android:background="@drawable/rounded"
                 android:editable="false"
                 android:gravity="center"
-                android:hint="End-Sem"
+                android:text="End-Sem"
                 android:textStyle="italic"
                 android:textSize="20sp" />
 
@@ -63,10 +63,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="1dp"
                 android:layout_weight="1"
-                android:background="@android:drawable/button_onoff_indicator_on"
+                android:background="@drawable/rounded"
                 android:editable="false"
                 android:gravity="center"
-                android:hint="Grade"
+                android:text="Grade"
                 android:textStyle="italic"
                 android:textSize="20sp" />
 
@@ -585,8 +585,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_marginRight="10dp"
-                android:background="#1769aa"
-                android:text="Reset"
+                android:textSize="16sp"
+                android:background="@drawable/btn_shape"
+                android:backgroundTint="#1769aa"                android:text="Reset"
                 android:textAllCaps="false" />
 
             <Button
@@ -596,9 +597,11 @@
                 android:layout_height="match_parent"
                 android:layout_marginRight="10dp"
                 android:layout_weight="1"
-                android:background="#1769aa"
+                android:textSize="16sp"
+                android:background="@drawable/btn_shape"
+                android:backgroundTint="#1769aa"
                 android:gravity="center"
-                android:text="calculate"
+                android:text="Calculate"
                 android:textAllCaps="false" />
 
             <TextView
@@ -607,8 +610,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="2"
                 android:gravity="center"
-                android:hint="SGPA:-__.__"
-                android:textSize="24sp" />
+                android:text="SGPA:-__.__"
+                android:textSize="24sp"
+                app:fontFamily="sans-serif-condensed"/>
 
 
 
